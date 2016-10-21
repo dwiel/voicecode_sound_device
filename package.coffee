@@ -18,4 +18,4 @@ pack.commands
       else if input == 'usb'
         device = 'SpeechMatic USB MultiAdapter'
 
-      @exec('/Users/zdwiel/Downloads/Audiodevice/audiodevice output "' + device + '"')
+      @exec('~/voicecode/packages/voicecode_sound_device/Audiodevice/audiodevice output "' + device + '"')
